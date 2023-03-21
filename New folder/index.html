@@ -23,6 +23,20 @@
 	a{
 		color:black;text-decoration:none;
 	}
+	@media
+	only screen and (max-width: 767px)
+	{
+		.car1{
+			display:none;
+		}
+	}
+	@media
+	only screen and (min-width: 767px)
+	{
+		.car2{
+			display:none;
+		}
+	}
 	
 	</style>
   </head>
@@ -73,8 +87,18 @@
 				</div>
 			
 				
-				<div class="row justify-content-evenly pt-1 pb-5">
-					<div class="col-md-3 col-9  pt-5">
+				  <!-- carousel -->
+		
+		<div id="carouselExampleIndicators1" class="carousel slide car1" >
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row justify-content-evenly pt-1 pb-5">
+					<div class="col-3  pt-5">
 						<div class="card shad" >
 							<img src="tree.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -82,7 +106,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-9  pt-5">
+					<div class="col-3  pt-5">
 						<div class="card shad" >
 							<img src="tree.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -90,7 +114,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-9  pt-5">
+					<div class="col-3  pt-5">
 						<div class="card shad" >
 							<img src="tree.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -99,6 +123,207 @@
 						</div>
 					</div>
 				</div>
+				</div>
+			<div class="carousel-item">
+				<div class="row justify-content-evenly pt-1 pb-5">
+					<div class="col-3  pt-5">
+						<div class="card shad" >
+							<img src="tree.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3  pt-5">
+						<div class="card shad" >
+							<img src="tree.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3  pt-5">
+						<div class="card shad" >
+							<img src="tree.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="row justify-content-evenly pt-1 pb-5">
+					<div class="col-3 pt-5">
+						<div class="card shad" >
+							<img src="tree.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 pt-5">
+						<div class="card shad" >
+							<img src="tree.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3  pt-5">
+						<div class="card shad" >
+							<img src="tree.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+	<!-- carousel end -->
+		<div id="carouselExampleIndicators" class="carousel slide bg-black car2" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+	<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="carousel-item">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="carousel-item">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	<div class="carousel-item">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	<div class="carousel-item">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	<div class="carousel-item">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	<div class="carousel-item">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	<div class="carousel-item">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	<div class="carousel-item">
+      <div class="row justify-content-around pt-1 pb-5">
+			<div class="col-8 pt-5">
+				<div class="card shad" >
+					<img src="tree.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+	<!-- carousel end -->
 			</div>
 		</div>
 		<div class="row justify-content-evenly pt-4" style="background-color:#f96c1e;">
