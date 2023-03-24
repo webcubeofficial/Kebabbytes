@@ -23,6 +23,9 @@
 	a{
 		color:black;text-decoration:none;
 	}
+	.backg{
+		background-color:#f96c1e;
+	}
 	@media
 	only screen and (max-width: 767px)
 	{
@@ -43,14 +46,45 @@
   <body>
     
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12 p-0">
-				<img src="tree2.jpg" class="img-fluid " width="100%">
+		<div class="row  justify-content-center backg" >
+			<div class="col-md-1 col-3 p-0" >
+				<img src="Images/logo1.png" class="img-fluid" width="100%"  >
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12 p-0">
-				<img src="tree.jpg" class="img-fluid" width="100%">
+				<div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row justify-content-center backg" >
+								<div class="col-md-6 p-0" >
+									<img src="Images/promo.jpeg" class="d-block w-100" alt="...">
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row justify-content-center backg" >
+								<div class="col-md-6 p-0" >
+									<img src="Images/promo2.jpeg" class="d-block w-100" alt="...">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -67,9 +101,9 @@
 				<div class="row justify-content-evenly">
 					<div class="col-7 pt-2">
 						<div class="row justify-content-evenly ">
-							<div class="col-md-2 col-4"><img src="tree.jpg" class="img-fluid" width="100%"></div>
-							<div class="col-md-2 col-4"><img src="tree.jpg" class="img-fluid" width="100%"></div>
-							<div class="col-md-2 col-4"><img src="tree.jpg" class="img-fluid" width="100%"></div>
+							<div class="col-md-2 col-4"><a href="https://www.zomato.com/kolkata/kebab-bytes-sodepur"><img src="Images/zomato.png" class="img-fluid" width="100%"></a></div>
+							<div class="col-md-2 col-4"><a href="https://www.swiggy.com/restaurants/kebab-bytes-natagarh-sodepur-kolkata-574609"><img src="Images/swiggy.png" class="img-fluid" width="100%"></a></div>
+							
 						</div>
 					</div>
 				</div>
@@ -82,7 +116,7 @@
 						<center><h3  class="d-inline-flex heading">MENU</h3></center>
 					</div>
 					<div class="col-4 ">
-						<center><a href="" class="heading"><p class="d-inline-flex heading">See&nbspMore&nbsp<i class="bi bi-arrow-right-circle"></i></p></a></center>
+						<center><a href="menu.html" class="heading"><p class="d-inline-flex heading">See&nbspMore&nbsp<i class="bi bi-arrow-right-circle"></i></p></a></center>
 					</div>
 				</div>
 			
@@ -100,7 +134,7 @@
 					<div class="row justify-content-evenly pt-1 pb-5">
 					<div class="col-3  pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/item2.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -108,7 +142,7 @@
 					</div>
 					<div class="col-3  pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/item1.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -116,7 +150,7 @@
 					</div>
 					<div class="col-3  pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/Item4.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -128,7 +162,7 @@
 				<div class="row justify-content-evenly pt-1 pb-5">
 					<div class="col-3  pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/Item8.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -136,7 +170,7 @@
 					</div>
 					<div class="col-3  pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/Item3.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -144,7 +178,7 @@
 					</div>
 					<div class="col-3  pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/Item6.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -156,7 +190,7 @@
 				<div class="row justify-content-evenly pt-1 pb-5">
 					<div class="col-3 pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/Item11.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -164,7 +198,7 @@
 					</div>
 					<div class="col-3 pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/Item13.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -172,7 +206,7 @@
 					</div>
 					<div class="col-3  pt-5">
 						<div class="card shad" >
-							<img src="tree.jpg" class="card-img-top" alt="...">
+							<img src="Images/Item14.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -208,7 +242,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/item2.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -220,7 +254,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/item1.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -232,7 +266,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/Item4.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -244,7 +278,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/Item8.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -256,7 +290,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/Item3.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -268,7 +302,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/Item6.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -280,7 +314,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/Item11.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -292,7 +326,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/Item13.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -304,7 +338,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
-					<img src="tree.jpg" class="card-img-top" alt="...">
+					<img src="Images/Item14.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -326,7 +360,7 @@
 	<!-- carousel end -->
 			</div>
 		</div>
-		<div class="row justify-content-evenly pt-4" style="background-color:#f96c1e;">
+		<div class="row justify-content-evenly pt-4  backg" >
 			<div class="col-md-5">
 				<h2 class="pb-3">Contact Us</h2>
 				<h5><i class="bi bi-envelope-at-fill"></i>:kebabbytes@gmail.com<h5>
@@ -346,6 +380,11 @@
 			</div>
 			<div class="col-md-5 pt-4">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2659.635827001018!2d88.39435004982758!3d22.702366569003757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1679073486042!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+		<div class="row  justify-content-center backg" >
+			<div class="col-md-1 col-3 p-0" >
+				<img src="Images/logo1.png" class="img-fluid" width="100%"  >
 			</div>
 		</div>
 	</div>
