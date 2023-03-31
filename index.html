@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <title>Hello, world!</title>
+    <title>Home | Kebab Bytes</title>
 	<style>
 	* {
 		margin: 0;
@@ -18,14 +18,15 @@
 		width:100%;box-shadow:0px 0px 30px 0px white;
 	}
 	.heading{
-		color:#f96c1e;opacity:1;
+		color:#FE6B1F;opacity:1;
 	}
 	a{
 		color:black;text-decoration:none;
 	}
 	.backg{
-		background-color:#f96c1e;
+		background-color:#FE6B1F;
 	}
+	
 	@media
 	only screen and (max-width: 767px)
 	{
@@ -43,14 +44,32 @@
 	
 	</style>
   </head>
-  <body>
-    
+  <body >
+  <!--navigation-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light  backg p-3" >
+  <div class="container-fluid">
+	
+		<a class="navbar-brand" style="transform:translatex(-50%);left:50%;position:absolute;" href="#"><img src="Images/logo1.png" class="" width="100" alt=""></a>
+	
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active  aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="menu.html">Menu</a>
+        </li>
+      </ul>
+     
+    </div>		
+  </div>
+</nav>
+<!--body-->
 	<div class="container-fluid">
-		<div class="row  justify-content-center backg" >
-			<div class="col-md-1 col-3 p-0" >
-				<img src="Images/logo1.png" class="img-fluid" width="100%"  >
-			</div>
-		</div>
+		
 		<div class="row">
 			<div class="col-12 p-0">
 				<div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
@@ -87,28 +106,41 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12 p-0" >
+		<!--About-->
+		<section >
+		<div class="row " style="background-color:black;">
+			<div class="col-5 p-5 " >
 				
-						<img src="tree.jpg" class="img-fluid" width="100%">
+						<h3 class="heading"><b>|</b>About Us</h3>
+						<p style="color:white;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,</p>
+					
+			</div>
+			<div class="col-7 p-5" >
+				
+						<img src="Images/ph.jpg" class="img-fluid float-end" width="100%" style="float:left;">
 					
 			</div>
 			
-		</div>
-		<div class="row pt-3 pb-5">
+		</div>			
+		</section>
+		<!--Available-->
+		<div class="row pt-3 pb-5" >
 			<div class="col-12">
-				<center><h3>We are Available at</h3></center>
+				
 				<div class="row justify-content-evenly">
 					<div class="col-7 pt-2">
-						<div class="row justify-content-evenly ">
-							<div class="col-md-2 col-4"><a href="https://www.zomato.com/kolkata/kebab-bytes-sodepur"><img src="Images/zomato.png" class="img-fluid" width="100%"></a></div>
-							<div class="col-md-2 col-4"><a href="https://www.swiggy.com/restaurants/kebab-bytes-natagarh-sodepur-kolkata-574609"><img src="Images/swiggy.png" class="img-fluid" width="100%"></a></div>
+						<div class="row justify-content-center">
+							<center><h1>We are Available at:</h1></center>
+							<div class="col-md-2 col-4"><a href="https://www.zomato.com/kolkata/kebab-bytes-sodepur"><img src="Images/zomato.png" class="img-fluid rounded-circle" width="75%"></a></div>
+							<div class="col-md-2 col-4"><a href="https://www.swiggy.com/restaurants/kebab-bytes-natagarh-sodepur-kolkata-574609"><img src="Images/swiggy.png" class="img-fluid rounded-circle" width="75%"></a></div>
+							<div class="col-md-2 col-4"><a href="#"><img src="Images/wp.jpg" class="img-fluid rounded-circle" width="75%"></a></div>
 							
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!--Menu Section-->
 		<div class="row pt-4" style="background-color:black;">
 			<div class="col-12">
 				<div class="row pt-3">
@@ -117,13 +149,13 @@
 					</div>
 					<div class="col-4 ">
 						<center><a href="menu.html" class="heading"><p class="d-inline-flex heading">See&nbspMore&nbsp<i class="bi bi-arrow-right-circle"></i></p></a></center>
+						<center><a href="menu.html" class="heading"><p class="d-inline-flex heading">See&nbspMore&nbsp<i class="bi bi-arrow-right-circle"></i></p></a></center>
 					</div>
 				</div>
 			
 				
-				  <!-- carousel -->
-		
-		<div id="carouselExampleIndicators1" class="carousel slide car1" >
+			<!-- carousel start -->		
+			<div id="carouselExampleIndicators1" class="carousel slide car1" >
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 				<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -135,6 +167,7 @@
 					<div class="col-3  pt-5">
 						<div class="card shad" >
 							<img src="Images/item2.jpeg" class="card-img-top" alt="...">
+							<img src="Images/item2.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -143,6 +176,7 @@
 					<div class="col-3  pt-5">
 						<div class="card shad" >
 							<img src="Images/item1.jpeg" class="card-img-top" alt="...">
+							<img src="Images/item1.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -150,6 +184,7 @@
 					</div>
 					<div class="col-3  pt-5">
 						<div class="card shad" >
+							<img src="Images/Item4.jpeg" class="card-img-top" alt="...">
 							<img src="Images/Item4.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -163,6 +198,7 @@
 					<div class="col-3  pt-5">
 						<div class="card shad" >
 							<img src="Images/Item8.jpeg" class="card-img-top" alt="...">
+							<img src="Images/Item8.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -171,6 +207,7 @@
 					<div class="col-3  pt-5">
 						<div class="card shad" >
 							<img src="Images/Item3.jpeg" class="card-img-top" alt="...">
+							<img src="Images/Item3.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -178,6 +215,7 @@
 					</div>
 					<div class="col-3  pt-5">
 						<div class="card shad" >
+							<img src="Images/Item6.jpeg" class="card-img-top" alt="...">
 							<img src="Images/Item6.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -191,6 +229,7 @@
 					<div class="col-3 pt-5">
 						<div class="card shad" >
 							<img src="Images/Item11.jpeg" class="card-img-top" alt="...">
+							<img src="Images/Item11.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -199,6 +238,7 @@
 					<div class="col-3 pt-5">
 						<div class="card shad" >
 							<img src="Images/Item13.jpeg" class="card-img-top" alt="...">
+							<img src="Images/Item13.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							</div>
@@ -206,6 +246,7 @@
 					</div>
 					<div class="col-3  pt-5">
 						<div class="card shad" >
+							<img src="Images/Item14.jpeg" class="card-img-top" alt="...">
 							<img src="Images/Item14.jpeg" class="card-img-top" alt="...">
 							<div class="card-body">
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -225,8 +266,9 @@
 		</button>
 	</div>
 	<!-- carousel end -->
-		<div id="carouselExampleIndicators" class="carousel slide bg-black car2" data-bs-ride="carousel">
-  <div class="carousel-indicators">
+	<!--carousal start-->
+	<div id="carouselExampleIndicators" class="carousel slide bg-black car2" data-bs-ride="carousel">
+    <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -243,6 +285,7 @@
 			<div class="col-8 pt-5">
 				<div class="card shad" >
 					<img src="Images/item2.jpeg" class="card-img-top" alt="...">
+					<img src="Images/item2.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -254,6 +297,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
+					<img src="Images/item1.jpeg" class="card-img-top" alt="...">
 					<img src="Images/item1.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
@@ -267,6 +311,7 @@
 			<div class="col-8 pt-5">
 				<div class="card shad" >
 					<img src="Images/Item4.jpeg" class="card-img-top" alt="...">
+					<img src="Images/Item4.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -278,6 +323,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
+					<img src="Images/Item8.jpeg" class="card-img-top" alt="...">
 					<img src="Images/Item8.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
@@ -291,6 +337,7 @@
 			<div class="col-8 pt-5">
 				<div class="card shad" >
 					<img src="Images/Item3.jpeg" class="card-img-top" alt="...">
+					<img src="Images/Item3.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -302,6 +349,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
+					<img src="Images/Item6.jpeg" class="card-img-top" alt="...">
 					<img src="Images/Item6.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
@@ -315,6 +363,7 @@
 			<div class="col-8 pt-5">
 				<div class="card shad" >
 					<img src="Images/Item11.jpeg" class="card-img-top" alt="...">
+					<img src="Images/Item11.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -327,6 +376,7 @@
 			<div class="col-8 pt-5">
 				<div class="card shad" >
 					<img src="Images/Item13.jpeg" class="card-img-top" alt="...">
+					<img src="Images/Item13.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
@@ -338,6 +388,7 @@
       <div class="row justify-content-around pt-1 pb-5">
 			<div class="col-8 pt-5">
 				<div class="card shad" >
+					<img src="Images/Item14.jpeg" class="card-img-top" alt="...">
 					<img src="Images/Item14.jpeg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<p class="card-text">Some quih example text to build on the card title and make up the bulk of the card's content.</p>
@@ -358,40 +409,41 @@
 </div>
 
 	<!-- carousel end -->
-			</div>
 		</div>
-		<div class="row justify-content-evenly pt-4  backg" >
+	</div>
+	<!--Menu Section End-->
+	<!--footer-->
+		<div class="row justify-content-evenly pt-4 " style="background-image: url('Images/footer.jpg');background-size:100% 100%;" >
 			<div class="col-md-5">
 				<h2 class="pb-3">Contact Us</h2>
-				<h5><i class="bi bi-envelope-at-fill"></i>:kebabbytes@gmail.com<h5>
-				<h5><i class="bi bi-telephone-fill"></i>:9876543210</h5>
-				<h5><i class="bi bi-shop-window"></i>:Sodepur,Kolkata</h5>
+				<h5><i class="bi bi-envelope-at-fill"></i>: kebabbytes@gmail.com<h5>
+				<h5><i class="bi bi-telephone-fill"></i>: 9876543210</h5>
+				<h5><i class="bi bi-shop-window"></i>: Sodepur,Kolkata</h5>
 				<div class="row justify-content-start">
+					<div class="col-1 ">
+						<h3><a href=""><i class="bi bi-facebook"></i></a></h3>
 					<div class="col-1 ">
 						<h3><a href=""><i class="bi bi-facebook"></i></a></h3>
 					</div>
 					<div class="col-1">
 						<h3><a href=""><i class="bi bi-instagram"></i></a></h3>
+					<div class="col-1">
+						<h3><a href=""><i class="bi bi-instagram"></i></a></h3>
 					</div>
+					<div class="col-1">
+						<h3><a href=""><i class="bi bi-whatsapp"></i></a></h3 >
 					<div class="col-1">
 						<h3><a href=""><i class="bi bi-whatsapp"></i></a></h3 >
 					</div>
 				</div>
 			</div>
-			<div class="col-md-5 pt-4">
+			<div class="col-md-5 col-10 p-4">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2659.635827001018!2d88.39435004982758!3d22.702366569003757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1679073486042!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
-		</div>
-		<div class="row  justify-content-center backg" >
-			<div class="col-md-1 col-3 p-0" >
-				<img src="Images/logo1.png" class="img-fluid" width="100%"  >
+			<div>
+				<br><br><br><br><br><br><br>
 			</div>
-		</div>
-	</div>
-
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    
+		</div>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
   </body>
 </html>
